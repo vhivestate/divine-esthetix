@@ -2,6 +2,8 @@ import React from 'react'
 import { Instagram } from 'react-feather';
 import { GitHub } from 'react-feather';
 import { Twitter } from 'react-feather';
+import { Mail } from 'react-feather';
+
 
 
 function Footer() {
@@ -21,6 +23,8 @@ function Footer() {
 
 
           <a href='https://github.com/vhivestate'> <GitHub></GitHub> </a>
+
+          <a href="mailto:garcia.valeria001@gmail.com"> <Mail></Mail> </a>
     </div>
   </div> 
   <div>
