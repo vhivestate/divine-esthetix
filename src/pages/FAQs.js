@@ -2,7 +2,12 @@ import React from 'react'
 
 function FAQs() {
   return (
-    <div>FAQs</div>
+    <div>
+    <h1>Frequently Asked Questions</h1>
+    <div>
+
+    </div>
+    </div>
   )
 }
 
