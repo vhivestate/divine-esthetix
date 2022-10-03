@@ -3,7 +3,7 @@ import React from 'react'
 function Services() {
   return (
     <div>
-    <div className='service-cards'>
+    <div className='service-cards flex flex-wrap justify-center'>
     <div className="card w-96 bg-neutral text-neutral-content">
     <div className="card-body items-center text-center">
         <h2 className="card-title">Lashes</h2>
@@ -49,12 +49,12 @@ function Services() {
 
     <div className="card w-96 bg-neutral text-neutral-content">
     <div className="card-body items-center text-center">
-        <h2 className="card-title">Wax</h2>
+        <h2 className="card-title">Makeup</h2>
             <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Bridal: $70.00/hr</li>
+            <li>Date Night: $50.00</li>
+            <li>Everyday Look: $30.00/hr</li>
+            <li>Special Event: $45.00</li>
             </ul>
         <div className="card-actions justify-end">
         <button className="btn btn-primary">Book Service</button>
@@ -64,18 +64,21 @@ function Services() {
 
     <div className="card w-96 bg-neutral text-neutral-content">
     <div className="card-body items-center text-center">
-        <h2 className="card-title">Makeup</h2>
+        <h2 className="card-title">Wax</h2>
             <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Full Leg Wax: $65.00</li>
+            <li>Half Leg Wax: $50.00</li>
+            <li>Full Arm Wax: $40.00</li>
+            <li>Half Arm Wax: $25.00</li>
+            <li>Eyebrow Wax: $25.00</li>
+            <li>Lip Wax: $15.00</li>
             </ul>
         <div className="card-actions justify-end">
         <button className="btn btn-primary">Book Service</button>
         </div>
     </div>
     </div>
+
     
     </div>
     </div>
