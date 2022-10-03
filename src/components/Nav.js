@@ -13,13 +13,15 @@ function Nav() {
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li><Link to={'/home'}>Home</Link></li>
         <li><Link to={'/about'}>About</Link></li>
+        <li><Link to={'/services'}>Services</Link></li>
         <li><Link to={'/gallery'}>Gallery</Link></li>
-        <li><Link to={'/contact'}>Contact</Link></li> 
+        <li><Link to={'/contact'}>Book</Link></li> 
+        <li><Link to={'/faqs'}>FAQs</Link></li>
       </ul>
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost normal-case text-xl" to={'/'} >Seaglass</a>
+    <a className="btn btn-ghost normal-case text-xl" to={'/'} >Divine Esthetix</a>
   </div>
   <div className="navbar-end">
   </div>
