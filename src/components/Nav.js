@@ -19,7 +19,7 @@ function Nav() {
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost normal-case text-xl">Seaglass</a>
+    <a className="btn btn-ghost normal-case text-xl" to={'/'} >Seaglass</a>
   </div>
   <div className="navbar-end">
   </div>
