@@ -8,9 +8,9 @@ function Home() {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md space-x-4">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+          <h1 className="mb-5 text-5xl font-bold">Divine Esthetix</h1>
           <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          <button className="btn btn-primary">Serives</button>
+          <button className="btn btn-primary"><Link to={'/services'}>Services</Link></button>
           <button className="btn btn-primary"><Link to={'/book'}>Book</Link></button>
         </div>
       </div>
@@ -18,9 +18,11 @@ function Home() {
 
 {/* services section */}
     <h1>Services</h1>
-    <div>
-    <div className='service-cards flex flex-wrap justify-center'>
-    <div className="card w-96 bg-neutral text-neutral-content">
+
+    <div className="carousel w-full">
+  <div id="slide1" className="carousel-item relative w-80">
+
+  <div className="card w-96 bg-neutral text-neutral-content">
     <div className="card-body items-center text-center">
         <h2 className="card-title">Lashes</h2>
             <ul>
@@ -46,7 +48,15 @@ function Home() {
     </div>
     </div>
 
-    <div className="card w-96 bg-neutral text-neutral-content">
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" className="btn btn-circle">❮</a> 
+      <a href="#slide2" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+
+
+  <div id="slide2" className="carousel-item relative w-80">
+  <div className="card w-96 bg-neutral text-neutral-content">
     <div className="card-body items-center text-center">
         <h2 className="card-title">Eyebrows</h2>
             <ul>
@@ -63,7 +73,15 @@ function Home() {
     </div>
     </div>
 
-    <div className="card w-96 bg-neutral text-neutral-content">
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" className="btn btn-circle">❮</a> 
+      <a href="#slide3" className="btn btn-circle">❯</a>
+    </div>
+
+
+  </div> 
+  <div id="slide3" className="carousel-item relative w-80">
+  <div className="card w-96 bg-neutral text-neutral-content">
     <div className="card-body items-center text-center">
         <h2 className="card-title">Makeup</h2>
             <ul>
@@ -78,7 +96,15 @@ function Home() {
     </div>
     </div>
 
-    <div className="card w-96 bg-neutral text-neutral-content">
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" className="btn btn-circle">❮</a> 
+      <a href="#slide4" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+
+
+  <div id="slide4" className="carousel-item relative w-80">
+  <div className="card w-96 bg-neutral text-neutral-content">
     <div className="card-body items-center text-center">
         <h2 className="card-title">Wax</h2>
             <ul>
@@ -94,9 +120,13 @@ function Home() {
         </div>
     </div>
     </div>
-    </div>
-    </div>
 
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" className="btn btn-circle">❮</a> 
+      <a href="#slide1" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
 
     </div>
   )
