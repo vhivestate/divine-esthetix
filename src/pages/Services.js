@@ -20,7 +20,7 @@ function Services() {
     <h2 className='h2 text-center text-4xl pt-8'>Lashes</h2>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-screen bg-[#003049] glass text-neutral-content">
+        <div className="card w-screen h-72 bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Classic Set</h2>
                 <ul>
@@ -39,7 +39,7 @@ function Services() {
     <div id="slide2" className="carousel-item relative w-80">
         <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
-            <h2 className="h2 card-title">Hybrid Set</h2>
+            <h2 className="card-title">Hybrid Set</h2>
                     <ul>
                         <dd>Full Set $100.00</dd>
                         <dd>2nd Week Fill $60.00</dd>
@@ -104,7 +104,7 @@ function Services() {
     <div className='eyebrows'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-screen bg-[#003049] glass text-neutral-content">
+        <div className="card w-screen h-72 bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Lamination</h2>
                 <ul>
@@ -164,19 +164,13 @@ function Services() {
 
 
 {/* Makeup */}
-
-<h2 className='h2 text-center text-4xl pt-12'>Makeup</h2>
     <div className='makeup'>
+    <h2 className='h2 text-center text-4xl pt-12'>Makeup</h2>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-screen bg-[#003049] glass text-neutral-content">
+        <div className="card w-screen h-72 bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Bridal</h2>
-                <ul>
-                    <dd>Full Set $80.00</dd>
-                    <dd>2nd Week Fill $50.00</dd>
-                    <dd>3rd Week Fill $60.00</dd>
-                </ul>
             </div>
         </div>
         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -189,11 +183,7 @@ function Services() {
         <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Date Night</h2>
-                    <ul>
-                        <dd>Full Set $100.00</dd>
-                        <dd>2nd Week Fill $60.00</dd>
-                        <dd>3rd Week Fill $70.00</dd>
-                    </ul>
+   
             </div>
         </div>
         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -207,11 +197,6 @@ function Services() {
         <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Everyday Look</h2>
-                    <ul>
-                        <dd>Full Set $120.00</dd>
-                        <dd>2nd Week Fill $75.00</dd>
-                        <dd>3rd Week Fill $90.00</dd>
-                    </ul>
             </div>
             </div>
 
@@ -225,14 +210,6 @@ function Services() {
         <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Special Event</h2>
-                    <ul>
-                    <li>Full Leg Wax: $65.00</li>
-                    <li>Half Leg Wax: $50.00</li>
-                    <li>Full Arm Wax: $40.00</li>
-                    <li>Half Arm Wax: $25.00</li>
-                    <li>Eyebrow Wax: $25.00</li>
-                    <li>Lip Wax: $15.00</li>
-                    </ul>
             </div>
             </div>
 
@@ -258,7 +235,7 @@ function Services() {
     <div className='wax'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-screen bg-[#003049] glass text-neutral-content">
+        <div className="card w-screen h-72 bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Face</h2>
                 <ul>
