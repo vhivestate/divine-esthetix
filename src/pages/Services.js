@@ -10,13 +10,13 @@ function Services() {
         <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-white">
                 <div className="max-w-md">
-                <h1 className="text-5xl font-light text-white">Services</h1>
+                <h1 className="hero-logo text-5xl font-light text-white">Services</h1>
             </div>
         </div>
     </div>
 
 {/* first lash carousel */}
-<h2 className='text-center text-4xl'>Lashes</h2>
+<h2 className='h2 text-center text-4xl pt-14'>Lashes</h2>
     <div className='lashes'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
@@ -39,7 +39,7 @@ function Services() {
     <div id="slide2" className="carousel-item relative w-80">
         <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
-            <h2 className="card-title">Hybrid Set</h2>
+            <h2 className="h2 card-title">Hybrid Set</h2>
                     <ul>
                         <dd>Full Set $100.00</dd>
                         <dd>2nd Week Fill $60.00</dd>
@@ -92,13 +92,17 @@ function Services() {
     </div>
     </div>
 
-    <div className="card-actions justify-center">
-        <button className="btn btn-primary">Book Service</button>
+
+ {/* button */}
+    <div className="card-actions justify-center pt-8">
+        <button className="btn glass pt-">Book Service</button>
     </div>
+
+
 
     {/* second brow carousel */}
 
-    <h2 className='text-center text-4xl'>Eyebrows</h2>
+    <h2 className=' h2 text-center text-4xl pt-12'>Eyebrows</h2>
     <div className='eyebrows'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
@@ -152,14 +156,18 @@ function Services() {
     </div>
     </div>
 
-    <div className="card-actions justify-center">
-        <button className="btn btn-primary">Book Service</button>
+
+
+{/* button */}
+    <div className="card-actions justify-center pt-8">
+        <button className="btn glass">Book Service</button>
     </div>
+
 
 
 {/* Makeup */}
 
-<h2 className='text-center text-4xl'>Makeup</h2>
+<h2 className='h2 text-center text-4xl pt-12'>Makeup</h2>
     <div className='makeup'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
@@ -239,12 +247,16 @@ function Services() {
     </div>
 
 
-    <div className="card-actions justify-center">
-        <button className="btn btn-primary">Book Service</button>
+
+{/* button */}
+    <div className="card-actions justify-center pt-8">
+        <button className="btn glass">Book Service</button>
     </div>
 
+
+
 {/* Waxes */}
-<h2 className='text-center text-4xl'>Wax</h2>
+<h2 className='h2 text-center text-4xl pt-12'>Wax</h2>
     <div className='wax'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
@@ -298,8 +310,10 @@ function Services() {
     </div>
     </div>
 
-    <div className="card-actions justify-center">
-        <button className="btn btn-primary">Book Service</button>
+
+{/* button */}
+    <div className="card-actions justify-center p-8">
+        <button className="btn glass">Book Service</button>
     </div>
 
     </div>

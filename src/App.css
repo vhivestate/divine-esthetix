@@ -7,6 +7,16 @@
   src: url(assets/fonts/Superme-GOx4A.ttf)
 }
 
+@font-face {
+  font-family:Megidana ;
+  src: url(assets/fonts/Megidana.otf)
+}
+
 .hero-logo {
   font-family: supreme;
+}
+
+.h2 {
+  font-family: Megidana;
+
 }
