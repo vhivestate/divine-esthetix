@@ -1,10 +1,12 @@
 import React from 'react'
+import '../App.css'
+
 
 function Services() {
   return (
-    <div>
+    <div className='bg-white'>
 {/* hero */}
-    <div className="hero h-64 bg-fixed" style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}>
+    <div className="hero h-64 bg-fixed" style={{ backgroundImage: `url("https://i.pinimg.com/564x/a1/14/31/a11431eea05f8083e42491c5fa6003d1.jpg")` }}>
         <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-white">
                 <div className="max-w-md">
@@ -18,7 +20,7 @@ function Services() {
     <div className='lashes'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Classic Set</h2>
                 <ul>
@@ -35,7 +37,7 @@ function Services() {
     </div> 
 
     <div id="slide2" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Hybrid Set</h2>
                     <ul>
@@ -53,7 +55,7 @@ function Services() {
 
 
     <div id="slide3" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Volume Set</h2>
                     <ul>
@@ -70,7 +72,7 @@ function Services() {
         </div> 
 
         <div id="slide4" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Lash Tint & Lifts</h2>
                     <ul>
@@ -100,7 +102,7 @@ function Services() {
     <div className='eyebrows'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Lamination</h2>
                 <ul>
@@ -116,7 +118,7 @@ function Services() {
     </div> 
 
     <div id="slide2" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Tint</h2>
                 <ul>
@@ -133,7 +135,7 @@ function Services() {
 
 
     <div id="slide3" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Wax</h2>
                     <ul>
@@ -161,7 +163,7 @@ function Services() {
     <div className='makeup'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Bridal</h2>
                 <ul>
@@ -178,7 +180,7 @@ function Services() {
     </div> 
 
     <div id="slide2" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Date Night</h2>
                     <ul>
@@ -196,7 +198,7 @@ function Services() {
 
 
     <div id="slide3" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Everyday Look</h2>
                     <ul>
@@ -214,7 +216,7 @@ function Services() {
         </div> 
 
         <div id="slide4" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Special Event</h2>
                     <ul>
@@ -246,7 +248,7 @@ function Services() {
     <div className='wax'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Face</h2>
                 <ul>
@@ -262,7 +264,7 @@ function Services() {
     </div> 
 
     <div id="slide2" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Arms</h2>
                 <ul>
@@ -279,7 +281,7 @@ function Services() {
 
 
     <div id="slide3" className="carousel-item relative w-80">
-        <div className="card w-96 bg-neutral text-neutral-content">
+        <div className="card w-96 bg-[#003049] text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Legs</h2>
                 <ul>
