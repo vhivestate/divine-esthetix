@@ -16,11 +16,11 @@ function Services() {
     </div>
 
 {/* first lash carousel */}
-<h2 className='h2 text-center text-4xl pt-14'>Lashes</h2>
     <div className='lashes'>
+    <h2 className='h2 text-center text-4xl pt-8'>Lashes</h2>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Classic Set</h2>
                 <ul>
@@ -37,7 +37,7 @@ function Services() {
     </div> 
 
     <div id="slide2" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="h2 card-title">Hybrid Set</h2>
                     <ul>
@@ -55,7 +55,7 @@ function Services() {
 
 
     <div id="slide3" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Volume Set</h2>
                     <ul>
@@ -72,7 +72,7 @@ function Services() {
         </div> 
 
         <div id="slide4" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Lash Tint & Lifts</h2>
                     <ul>
@@ -90,12 +90,10 @@ function Services() {
             </div>
         </div>
     </div>
-    </div>
-
-
- {/* button */}
-    <div className="card-actions justify-center pt-8">
+     {/* button */}
+     <div className="card-actions justify-center pt-8">
         <button className="btn glass pt-">Book Service</button>
+    </div>
     </div>
 
 
@@ -106,7 +104,7 @@ function Services() {
     <div className='eyebrows'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Lamination</h2>
                 <ul>
@@ -122,7 +120,7 @@ function Services() {
     </div> 
 
     <div id="slide2" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Tint</h2>
                 <ul>
@@ -139,7 +137,7 @@ function Services() {
 
 
     <div id="slide3" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Wax</h2>
                     <ul>
@@ -171,7 +169,7 @@ function Services() {
     <div className='makeup'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Bridal</h2>
                 <ul>
@@ -188,7 +186,7 @@ function Services() {
     </div> 
 
     <div id="slide2" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Date Night</h2>
                     <ul>
@@ -206,7 +204,7 @@ function Services() {
 
 
     <div id="slide3" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Everyday Look</h2>
                     <ul>
@@ -224,7 +222,7 @@ function Services() {
         </div> 
 
         <div id="slide4" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Special Event</h2>
                     <ul>
@@ -260,7 +258,7 @@ function Services() {
     <div className='wax'>
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Face</h2>
                 <ul>
@@ -276,7 +274,7 @@ function Services() {
     </div> 
 
     <div id="slide2" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
             <h2 className="card-title">Arms</h2>
                 <ul>
@@ -293,7 +291,7 @@ function Services() {
 
 
     <div id="slide3" className="carousel-item relative w-80">
-        <div className="card w-96 bg-[#003049] text-neutral-content">
+        <div className="card w-screen bg-[#003049] glass text-neutral-content">
             <div className="card-body items-center text-center">
                 <h2 className="card-title">Legs</h2>
                 <ul>
